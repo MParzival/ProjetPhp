@@ -1,0 +1,58 @@
+/* ////  SECTION ACCUEIL  //// */
+
+.bg-image {
+    background-image: url(/img/DSC2945formobile.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.bg-image p {
+    display: none;
+}
+.btn {
+    display: none;
+}
+.bg-image h1 {
+    font-size: 70px;
+    margin-top: -70px;
+}
+
+
+/* ////  SECTION NOUS  //// */
+
+
+.text-justify {
+    margin: 0;
+}
+#nous div h2{
+    font-size: 30px;
+}
+#nous p {
+    margin-top: 20px;
+    padding: 0 10px;
+    font-size: 10px;
+    opacity: 0.6;
+    background-color: #303030;
+    border: 1px solid #B36700;
+    border-radius: 10px;
+
+}
+
+
+/* ////  SECTION INFO //// */
+
+.display-4{
+    font-size: 25px;
+}
+.display-4 i {
+    display: none;
+}
+
+
+
+footer .footer-end {
+    order: 3;
+} 
+

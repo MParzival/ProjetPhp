@@ -1,0 +1,256 @@
+/* //// GENERAL  //// */
+
+body, html{
+    margin: 0; padding: 0;
+    font-family: 'Libre Baskerville', serif;
+    background-color: #303030;
+
+}
+.container-fluid{
+    padding: 0;
+}
+
+#accueil h1, #accueil p, #nous p, #nous h2, #jourj h2, #jourj p, h3, .lien, #contact h3 {
+    color: #B36700;
+}
+
+/* ////  NAVBAR  //// */
+.bg-light{
+    background-color: rgba(48, 48, 48, 0.55) !important;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link {
+    color: #B36700;
+}
+.nav-link a:link,
+.nav-item a:visited {
+    color: #B36700;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-item a:hover,
+.nav-item a:active {
+    border-bottom: 2px solid #B36700;
+}
+.navbar-light .navbar-toggler {
+    border-color: #B36700;
+}
+
+.navbar-toggler{
+    background-color: #b36700;
+}
+ul {
+    display: inline;
+}
+
+
+
+/* ////  SECTION ACCUEIL  //// */
+
+.bg-image {
+    background-image: url(/img/DSC2945copie.jpg);
+    height: 95vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-image h1 {
+    font-size: 100px;
+}
+.bg-image p {
+    font-size: 25px;
+}
+
+.btn {
+    width: 430px;
+    height: 35px;
+    background: #fff;
+    color: #B36700;
+    font-size: 15px;
+    letter-spacing: 5pt;
+    border-radius: 40px;
+    opacity: 0.9;
+
+}
+
+.btn:hover {
+    background: #B36700;
+    color: #303030;
+}
+
+
+
+/* ////  SECTION NOUS  //// */
+
+.bg-image2 {
+    background-image: url(/img/DSC_0747re.jpg);
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+#nous h2 {
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+#nous p {
+    margin-top: 100px;
+    padding: 10px 50px;
+    font-size: 20px;
+    opacity: 0.6;
+    background-color: #303030;
+    border: 1px solid #B36700;
+    border-radius: 10px;
+
+}
+.text-justify {
+    margin: 0 100px;
+}
+
+/* ////  SECTION JOUR-J  //// */
+
+#jourj p {
+    text-decoration: underline;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.ligne_verticale {
+    width:2px;
+    border-left:1px solid #B36700;
+    height:200px;
+    margin-top: 100px;
+}
+
+.thumbnails {
+    border: 5px solid #B36700;
+    background-color: #B36700;
+    border-radius: 8px;
+}
+iframe{
+    padding: 2px 2px 0 2px;
+}
+.btn-dark {
+    margin: 100px 0;
+}
+@media (max-width: 575.98px) {
+    #jourj div h2{
+        font-size: 30px;
+    }
+    #jourj div p{
+        font-size: 15px;
+    }
+    .ligne_verticale{
+        display: none;
+    }
+    .ceremonie, .festivite{
+        padding: 0 80px 30px 80px;
+        font-size: 20px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .ligne_verticale{
+        display: none;
+    }
+    .ceremonie, .festivite{
+        padding: 0 80px 30px 80px;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+@media (min-width: 1200px) {
+    .ceremonie {
+        padding-left: 100px;
+    }
+    .festivite {
+        padding-right: 100px;
+    }
+}
+
+/* ////  SECTION GALLERIE  //// */
+
+
+img {
+    width: 100%;
+    margin: 15px 0;
+}
+
+/* ////  FOOTER  //// */
+
+footer {
+    background-color: #B36700;
+    height: 80px;
+}
+
+
+/* ////  SECTION CONTACT  //// */
+
+#contact {
+    padding-top: 100px;
+}
+
+i {
+    font-size: 30px;
+    color: #B36700;
+}
+
+#contact p {
+    color: #B36700;
+}
+
+.mail i {
+    font-size: 50px;
+}
+
+
+
+#contact .border  {
+    border: 1px solid #B36700 !important;
+    border-radius: 10px;
+}
+
+#contact .para {
+    font-size: 15px;
+}
+
+
+
+
+/*
+.bg-image3 {
+    background-image: url(/img/DSC2935re.jpg);
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+i {
+    font-size: 30px;
+}
+*/
+
+/*
+input[name=nom], input[name=email], input[name=sujet], textarea[name=message]{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #B36700;
+    font-size: 1.1em;
+}
+container{
+    padding: 0 250px;
+}
+*/
+
+
